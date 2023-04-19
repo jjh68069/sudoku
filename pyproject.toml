@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "sudoku"
+version = "0.1.0"
+description = "Sudoku Solver, using multiple possible solutions and profiling the time required using each solution method"
+authors = ["Jason Hill"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.9.5"
+
+[tool.poetry.group.dev.dependencies]
+Flask = "^2.2.3"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
